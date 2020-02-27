@@ -1,7 +1,9 @@
 <!DOCTYPE html>
-<html>
-<body>
-
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
 <p style="margin:0cm;margin-bottom:.0001pt;font-size:15px;font-family:&quot;Calibri&quot;,sans-serif;"><strong><span style="font-family:&quot;Segoe UI&quot;,sans-serif;">Kunstexpositie [<span style="background:yellow;">TITEL</span>]</span></strong></p>
 <p style="margin:0cm;margin-bottom:.0001pt;font-size:15px;font-family:&quot;Calibri&quot;,sans-serif;"><span style="font-family:&quot;Segoe UI&quot;,sans-serif;">&nbsp;</span></p>
 <p style="margin:0cm;margin-bottom:.0001pt;font-size:15px;font-family:&quot;Calibri&quot;,sans-serif;"><span style="font-family:&quot;Segoe UI&quot;,sans-serif;">Op dinsdag 31 maart openen leerlingen uit de kunstexamenklas van het Coornhert Gymnasium de jaarlijkse kunstexpositie. Dit jaar is de tentoonstelling te bezichtigen in het kunstatelier van Tabak&amp;Naus van 31 maart tot zaterdag 4 april. 10 zesdeklassers hebben dit schooljaar gewerkt aan hun kunstproject met het overkoepelende thema ‘Levensloop’. Vanuit hun eigen discipline en invalshoek met betrekking tot het thema hebben de leerlingen een bewonderenswaardig kunstwerk vervaardigd. Bent u benieuwd naar de resultaten? Breng dan een bezoekje aan deze examenexpositie. De aanwezige leerlingen staan u graag te woord over hun werkproces en visie op het gekozen onderwerp. De kunstexpositie is vrij toegankelijk op de aangegeven tijden.</span></p>
