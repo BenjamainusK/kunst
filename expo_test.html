@@ -117,6 +117,73 @@ ul.topnav li.right {float: right;}
   ul.topnav li {float: none;}
 }
     
+        
+    /* Gallerij */
+
+    * {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+    
 </style>
 
     </head>
@@ -137,51 +204,65 @@ ul.topnav li.right {float: right;}
 <section class="wrapper">
     
     <a name="naar_boven"></a>
-    <div class="image">
-        <img src="https://images.unsplash.com/photo-1581708794629-8174e37783bd?ixlib=rb-1.2.1&auto=format&fit=crop&w=1189&q=80" alt="Art"></img>
-       </a>   
+ 
+
+    
+<!-- MAIN (Center website) -->
+
+    <div class="main">
+
+<h1>MYLOGO.COM</h1>
+<hr>
+
+<h2>PORTFOLIO</h2>
+<p>Resize the browser window to see the responsive effect.</p>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="https://images.unsplash.com/photo-1540206395-68808572332f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=562&q=80" alt="Mountains" style="width:100%">
+      <h3>My Work</h3>
+      <p>Lorem ipsum..</p>
     </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <img src="https://images.unsplash.com/photo-1501854140801-50d01698950b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1440&q=80" alt="Lights" style="width:100%">
+      <h3>My Work</h3>
+      <p>Lorem ipsum..</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <img src="https://images.unsplash.com/photo-1500829243541-74b677fecc30?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1355&q=80" alt="Nature" style="width:100%">
+      <h3>My Work</h3>
+      <p>Lorem ipsum..</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <img src="https://images.unsplash.com/photo-1453785675141-67637e2d4b5c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1418&q=80" alt="Mountains" style="width:100%">
+      <h3>My Work</h3>
+      <p>Lorem ipsum..</p>
+    </div>
+  </div>
+</div>
+
+<div class="content">
+  <img src="https://images.unsplash.com/photo-1497436072909-60f360e1d4b1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80" alt="Bear" style="width:100%">
+  <h3>Some Other Work</h3>
+  <p>Lorem ipsum..</p>
+</div>
+
+<!-- END MAIN -->
+</div>
     
     <center>
     <p>
     Op deze pagina zullen de kunstwerken online worden tentoongesteld. 
     </p>
 
-<!-- Timer -->
-    
-    <b><p style="font-size:180%" id="demo"></p></b>
-    </center>
-
-<script>
-// Set the date we're counting down to
-var countDownDate = new Date("Apr 7, 2020 17:00:00").getTime();
-
-// Update the count down every 1 second
-var x = setInterval(function() {
-
-  // Get today's date and time
-  var now = new Date().getTime();
-    
-  // Find the distance between now and the count down date
-  var distance = countDownDate - now;
-    
-  // Time calculations for days, hours, minutes and seconds
-  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-    
-  // Output the result in an element with id="demo"
-  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-  + minutes + "m " + seconds + "s ";
-    
-  // If the count down is over, write some text 
-  if (distance < 0) {
-    clearInterval(x);
-    document.getElementById("demo").innerHTML = "EXPIRED";
-  }
-}, 1000);
-</script>
 
     <a href="#naar_boven">Naar Boven</a>
     <p><b>Deel deze online expositie:</b></p>
