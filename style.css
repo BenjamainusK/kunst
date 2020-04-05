@@ -1,0 +1,163 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #f1f1f1;
+    padding: 10px;
+}
+    
+    /* Style the header */
+header {
+  font-family: 'Roboto SLab', sans-serif;
+  background-color: #ffffff;
+  padding: 10px;
+  text-align: center;
+  font-size: 35px;
+  color: black;
+}
+    
+    /* Style the content */
+section {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #ffffff;
+  padding: 10px;
+  
+}
+    
+    /* Style the footer */
+footer {
+  background-color: #08596a;
+  padding: 5px;
+  text-align: center;
+  color: white;
+
+}
+    
+.wrapper {
+  max-width: 800px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.image {
+    position: relative;
+    max-height: 500px;
+    width: 100%;
+    overflow: hidden;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+   
+    <!--Navigation Bar-->
+    
+    body {margin: 0;}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #5c5c5c;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #a1a1a1;}
+
+ul.topnav li a.active {background-color: #288992;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+    
+        
+    /* Gallerij */
+
+    * {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 280%;
+  word-break: no;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+.content:hover {
+  background-color: white;
+  padding: 10px;
+  box-shadow: 0 0 2px 1px rgba(196, 196, 196, 1);
+  
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
