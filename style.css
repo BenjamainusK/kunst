@@ -54,6 +54,12 @@ img {
     overflow: hidden;
 }
 
+   .afbeelding {
+      max-width: 70%;
+      height: auto;
+}
+        
+
 a {
   color: #288992;
 }
