@@ -57,6 +57,11 @@ img {
 a {
   color: #288992;
 }
+
+h5 {
+  font-size: 80%;
+  word-break: no;
+}
    
     <!--Navigation Bar-->
     
